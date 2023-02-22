@@ -1,0 +1,20 @@
+body {
+  background-color: #252525;
+}
+
+#resultado {
+  color: aliceblue;
+}
+
+.enlaces {
+  color: rgb(255, 255, 255);
+  transition: all ease-in-out 0.3s;
+}
+
+.enlaces:hover {
+  color: #039BE5;
+}
+
+.page-footer {
+  background-color: #252525;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Creador de equipos de Futbol | Andrés Sánchez</title>
+  <link rel="shortcut icon" href="img/logo.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">directions_run</i></h2>
+            <h5 class="center white-text">Creador de equipos de futbol</h5>
+              <div class="input-field col offset-l3 s12 l6">
+                <input  id="nombres" name="nombres" placeholder="Introduce los nombres aquí..." id="first_name" type="text" class="validate white-text">
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="center white-text">Introduce los nombres de los jugadores, separados por comas.</p>
+        </div>
+        <div class="row center">
+          <a type="submit" id="enviar" class="waves-effect blue btn">Generar equipo</a>
+        </div>
+        <div class="row" id="resultado"></div>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="page-footer" >
+    <div id="contacto" class="page-footer">
+      <hr>
+      <h3 class="header center white-text code">Contacto</h3>
+      <div class="center">
+        <h4 class="code" id="enlaces">
+          <a class="enlaces" target="_blank" href="https://www.linkedin.com/in/andres-sanchez-vera/">LinkedIn</a> <span
+            class="white-text">|</span>
+          <a class="enlaces" target="_blank" href="https://github.com/snchezz">GitHub</a>
+        </h4>
+      </div>
+      
+      <br>
+      <hr>
+    </div>
+  </footer>
+
+ 
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
